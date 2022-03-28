@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f4f4; color: #222; }
+main { max-width: 950px; margin: auto; padding: 35px 20px; }
+h1 { margin-bottom: 5px; }
+.intro { margin-top: 0; }
+.note { padding: 10px; background: white; border-left: 4px solid #555; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 25px; }
+.card { background: white; padding: 20px; border: 1px solid #ddd; border-radius: 6px; }
+.card h2 { font-size: 18px; margin-top: 0; }
+label { display: block; margin: 12px 0; font-size: 14px; }
+input { width: 100%; padding: 9px; margin-top: 5px; border: 1px solid #aaa; border-radius: 4px; }
+button { padding: 9px 14px; border: 0; border-radius: 4px; background: #222; color: white; cursor: pointer; }
+.result { font-weight: bold; }
+.error { color: #a00; }
